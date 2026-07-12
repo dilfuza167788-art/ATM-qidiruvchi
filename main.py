@@ -8,11 +8,10 @@ from dotenv import load_dotenv
 from os import getenv
 load_dotenv()
 
-TOKEN = getenv('TOKEN')
-
+TOKEN = getenv('BOT_TOKEN')
 ADMIN_UZ_ID = getenv("ADMIN_UZ_ID")
 ADMIN_RU_ID = getenv("ADMIN_RU_ID")
-DP_PATH =getenv("DP_PATH")
+DP_PATH =getenv("DB_PATH")
 
 dp = Dispatcher()
 
